@@ -62,6 +62,15 @@ python examples/refund.py
 
 Running the example makes one live request subject to the service's billing.
 
+For more runnable examples, see the [examples guide](examples/README.md):
+
+- [All question types](examples/all_question_types.py): structured state and three
+  questions in one call, with probabilities, scores, usage, and exact costs.
+- [Error handling](examples/handle_errors.py): timeouts, base URL configuration,
+  API errors, and transport failures.
+- [Offline demo](examples/offline.py): a working custom transport with no API key
+  or network access. Run `python examples/offline.py` after installation.
+
 ## Question types and responses
 
 ```python
@@ -204,4 +213,3 @@ Without installation, run tests with
 Tests use local HTTP servers and in-memory transports, with request and response
 fixtures from the Go SDK. They need no API key and make no live service requests.
 CI runs tests on Python 3.10–3.14 and checks formatting, types, and package builds.
-

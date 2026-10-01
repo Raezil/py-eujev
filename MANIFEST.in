@@ -1,0 +1,4 @@
+include README.md
+recursive-include examples *.py *.md
+recursive-include tests *.py
+include src/eujev/py.typed
