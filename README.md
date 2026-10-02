@@ -1,7 +1,7 @@
 # py-eujev
 
 A typed Python SDK for the [eu/jev System One API](https://jev.bevel.software/docs),
-ported from [eujev-go](https://github.com/Raezil/eujev-go). Supports choice, noul
+ported from [eujev-go](https://github.com/Bevel/eujev-go). Supports choice, noul
 (yes/no probability), and score questions using only the Python standard library.
 
 Requires Python 3.10 or later. The distribution is named `py-eujev`; import it
